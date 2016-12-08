@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appbac"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/bt_returnjhj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/return1" 
+            android:background="#000000"/>
+
+        <TextView
+            android:id="@+id/textView_my_score"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1.52"
+            android:gravity="center"
+            android:text="我的积分"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/bt_getscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/detail" 
+            android:background="#ffffff"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtView_Integration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:gravity="center"
+            android:text="我的积分"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView_show"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.11"
+            android:gravity="center_horizontal"
+         
+            android:textSize="30sp" />
+    </LinearLayout>
+
+</LinearLayout>

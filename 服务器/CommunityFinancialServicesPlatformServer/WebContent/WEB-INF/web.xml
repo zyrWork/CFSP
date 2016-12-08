@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>CommunityFinancialServicesPlatformServer</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>AccountServlet</servlet-name>
+		<servlet-class>com.cfsp.servlet.AccountServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AccountServlet</servlet-name>
+		<url-pattern>/AccountServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>CustomerServlet</servlet-name>
+		<servlet-class>com.cfsp.servlet.CustomerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CustomerServlet</servlet-name>
+		<url-pattern>/CustomerServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DetailServlet</servlet-name>
+		<servlet-class>com.cfsp.servlet.DetailServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DetailServlet</servlet-name>
+		<url-pattern>/DetailServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>NewsServlet</servlet-name>
+		<servlet-class>com.cfsp.servlet.NewsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>NewsServlet</servlet-name>
+		<url-pattern>/NewsServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>OrdersServlet</servlet-name>
+		<servlet-class>com.cfsp.servlet.OrdersServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>OrdersServlet</servlet-name>
+		<url-pattern>/OrdersServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Product_OrderServlet</servlet-name>
+		<servlet-class>com.cfsp.servlet.Product_OrderServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Product_OrderServlet</servlet-name>
+		<url-pattern>/Product_OrderServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ProductServlet</servlet-name>
+		<servlet-class>com.cfsp.servlet.ProductServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ProductServlet</servlet-name>
+		<url-pattern>/ProductServlet</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+</web-app>

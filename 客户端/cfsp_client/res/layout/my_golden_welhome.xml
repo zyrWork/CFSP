@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="400dp"
+        android:layout_height="178dp"
+        android:layout_weight="1.13"
+        android:scaleType="fitXY"
+        android:src="@drawable/a" />
+
+    <Button
+        android:id="@+id/bt_order"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bianpinghua"
+        android:onClick="Bt_order"
+        android:text="我的订单信息"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:color="#000000" />
+
+    <Button
+        android:id="@+id/bt_account"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bianpinghua2"
+        android:onClick="Bt_account"
+        android:text="我的账户信息"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bt_score"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bianpinghua4"
+        android:onClick="Bt_score"
+        android:text="我的积分信息"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bt_manage"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bianpinghua5"
+        android:onClick="Bt_manage"
+        android:text="我的理财信息"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+  
+</LinearLayout>

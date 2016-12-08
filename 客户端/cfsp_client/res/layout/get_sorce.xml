@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appbac"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/score_ret"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/return1" 
+        android:background="#000000"/>
+
+    <TextView
+        android:layout_margin="30dp"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30px"
+        android:layout_gravity="center"
+        android:text="支付金额越多积分越多" />
+
+    <TextView
+        android:layout_margin="30dp"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30px"
+        android:layout_gravity="center"
+        android:text="多和一些信用高的商户合作" />
+
+    <TextView
+        android:layout_margin="30dp"
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30px"
+        android:layout_gravity="center"
+        android:text="活跃度越高积分越高" />
+
+   
+
+</LinearLayout>

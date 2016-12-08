@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cfsp_client"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+        <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
+    
+	<uses-permission android:name="android.permission.CAMERA"></uses-permission>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+	<uses-feature android:name="android.hardware.camera" />
+	<uses-feature android:name="android.hardware.camera.autofocus" />
+	<uses-permission android:name="android.permission.VIBRATE"/>
+  	<uses-permission android:name="android.permission.FLASHLIGHT"/>
+  	
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.cfsp.activity.CustomerLoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="com.cfsp.QRCode.CaptureActivity"
+			android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+			android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>
+        <activity android:name="com.cfsp.activity.LoginActivity" >
+        </activity>
+        <activity android:name="com.cfsp.activity.RegisterActivity" >
+        </activity>
+        <activity android:name="com.cfsp.activity.MainPageActivity" >
+        </activity>
+        <activity android:name="com.cfsp.activity.MyGoldenWelHomeActivity" >
+        </activity>
+        <activity android:name="com.cfsp.activity.TwoDimensionalCodeActivity" >
+        </activity>
+        <activity android:name="com.cfsp.activity.HomePageActivity" >
+        </activity>
+        <activity android:name="com.cfsp.activity.MyAccountActivity" >
+        </activity>
+        <activity android:name="com.cfsp.activity.MyOrderActivity" >
+        </activity>
+        <activity android:name="com.cfsp.activity.MyFinancingActivity" >
+        </activity>
+        <activity android:name="com.cfsp.activity.MyScoreActivity" >
+        </activity>
+ 
+        <activity android:name="com.cfsp.activity.RechargeActivity" >
+        </activity>
+        <activity android:name="com.cfsp.activity.MyBillActivity" >
+        </activity>
+        <activity android:name="com.cfsp.activity.GetScoreActivity" >
+        </activity>
+        <activity android:name="com.cfsp.activity.ProductActivity" >
+        </activity>
+        <activity android:name="com.cfsp.activity.NewsEconomyActivity" >
+        </activity>
+        <activity android:name="com.cfsp.activity.NewsHealthActivity" >
+        </activity>
+        <activity android:name="com.cfsp.activity.NewsPeopleActivity" >
+        </activity>
+        <activity android:name="com.cfsp.activity.NewsOtherActivity" >
+        </activity>
+        <activity android:name="com.cfsp.activity.NewsBodyActivity" >
+        </activity>
+    </application>
+</manifest>
